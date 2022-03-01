@@ -1,12 +1,12 @@
 # 2.4-v900
 Repo to post klipper backup of my 3d printers
 
-How to setup the Repo :
+How to setup the Repo -
 
-Install git :
+Install git -
 sudo apt-get install git -y
 
-Setup git :
+Setup git -
 
 cd ~/klipper_config/
 git init
@@ -16,19 +16,20 @@ git commit -m "my first backup"
 git push -u origin master
 
 Use SSH to Auth into gihub and auto backup configs 
-Generate SSH :
-ssh-keygen -t rsa -C "your_email@example.com"
-Verify SSH :
-ssh -T git@github.com
+Generate SSH -
+  ssh-keygen -t rsa -C "your_email@example.com"
 
-Nexy time : 
-scripts/git_backup.sh
+Verify SSH -
+  ssh -T git@github.com
 
-Restore with settings with git :
+Nexy time -
+  scripts/git_backup.sh
+
+Restore with settings with git -
 cd ~/klipper_config/
 git fetch -all
 git reset --hard origin/master
 
-New Install :
+New Install -
 cd ~
 git clone <Your-GitHub-Repo-URL>
