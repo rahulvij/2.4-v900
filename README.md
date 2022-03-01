@@ -31,3 +31,7 @@ Restore with settings with git
 New Install
 `cd ~`
 `git clone <Your-GitHub-Repo-URL>`
+
+
+Links - 
+https://github.com/richardjm/voronpi-klipper-backup
