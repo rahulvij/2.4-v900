@@ -35,3 +35,4 @@ New Install
 
 Links - 
 https://github.com/richardjm/voronpi-klipper-backup
+https://github.com/fwiffo/klipper-config/blob/main/client_macros.cfg
